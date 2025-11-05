@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; margin: 0; padding: 0; line-height: 1.6; color:#111; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
+    h1, h2, h3 { margin: 1.2em 0 0.4em; }
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 18px; }
+    ul { margin: .4em 0 .8em 1.2em; }
+    a { color: #0a73ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color:#666; }
+    .box { background:#f7f7f8; padding:14px 16px; border-radius:10px; }
+    .small { font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective date: 2025-11-04</p>
+
+    <p>This Privacy Policy explains how <strong>Polant Business SL</strong> (the “<strong>Service Provider</strong>”, “we”, “us”) processes personal data collected via our messaging assistants (“<strong>Bots</strong>”) integrated with <strong>Facebook (Pages/Messenger)</strong>, <strong>Instagram Direct</strong>, <strong>WhatsApp Business</strong>, <strong>Telegram</strong>, <strong>Gmail</strong>, and <strong>TikTok Direct</strong>. Our workflow automation is orchestrated in <strong>n8n</strong>. We store conversation records and related data in our accounts at <strong>Notion</strong>, <strong>Supabase</strong>, <strong>MongoDB</strong>, and long-term in <strong>Google Sheets</strong>. This Policy is public and applies to all users who interact with our Bots.</p>
+
+    <h2>1. Controller & Contact</h2>
+    <p><strong>Controller:</strong> Polant Business SL<br>
+    <strong>Contact email:</strong> <a href="mailto:Antonpol2023@gmail.com">Antonpol2023@gmail.com</a><br>
+    <strong>Data protection inquiries:</strong> Write “Data request” in the subject line.</p>
+
+    <h2>2. Scope & Channels</h2>
+    <p>We process data when you message our Pages or accounts through:</p>
+    <ul>
+      <li>Facebook Pages / Messenger, Instagram Direct (Meta)</li>
+      <li>WhatsApp Business</li>
+      <li>Telegram</li>
+      <li>Gmail (incoming email to our mailboxes)</li>
+      <li>TikTok Direct Messages</li>
+    </ul>
+
+    <h2>3. Categories of Data</h2>
+    <ul>
+      <li>Identifiers and profile data you provide in messages (name, username/handle, phone number on WhatsApp, email address, company, role).</li>
+      <li>Message content, attachments, timestamps, technical metadata (IP where available, user/chat IDs and message IDs sent by the platform).</li>
+      <li>Operational data we generate: conversation labels, routing decisions, workflow/job IDs in n8n, status, and analytics (counts, response times).</li>
+    </ul>
+
+    <h2>4. Sources</h2>
+    <p>Data originates from you (messages), from platform providers (Meta (Facebook, Messenger), WhatsApp, Telegram, Google, TikTok), and from our internal systems (n8n, Notion, Supabase, MongoDB, Google Sheets).</p>
+
+    <h2>5. Purposes & Legal Bases</h2>
+    <ul>
+      <li><strong>Responding to your requests and delivering services</strong> (contract performance or legitimate interest).</li>
+      <li><strong>Customer support and administration</strong> (legitimate interest).</li>
+      <li><strong>Security, abuse prevention, debugging</strong> (legitimate interest, legal obligation).</li>
+      <li><strong>Service analytics & quality improvement</strong> using aggregated statistics (legitimate interest).</li>
+      <li><strong>Marketing or proactive notifications</strong> (only with your prior consent where required; for WhatsApp Business, explicit opt‑in is required before proactive messaging).</li>
+    </ul>
+
+    <h2>6. Processing & Storage</h2>
+    <p>We orchestrate flows in <strong>n8n</strong> and store records in the following processors under our accounts:</p>
+    <ul>
+      <li><strong>Notion</strong> (CRM, notes, purchases data)</li>
+      <li><strong>Supabase</strong> (contact data required for identification in n8n)</li>
+      <li><strong>MongoDB</strong> (chat memory storage)</li>
+      <li><strong>Google Sheets</strong> (long‑term tables and logs)</li>
+      <li><strong>Stripe</strong> (payment processing for orders; invoices & refunds; we do not store full card numbers or CVC)</li>
+    </ul>
+    <h3>6A. Payments via Stripe</h3>
+    <p>When you make a purchase or pay an invoice, payment processing is performed by <strong>Stripe</strong>. We transmit only data necessary to process the payment and comply with legal requirements, including:</p>
+    <ul>
+      <li>Billing details: name, email, phone, billing address;</li>
+      <li>Order details: order ID, amount, currency, description, customer ID;</li>
+      <li>Payment method metadata: card brand and last 4 digits, expiry month/year, payment method type (we <em>do not</em> receive or store full card numbers or CVC on our servers);</li>
+      <li>Fraud‑prevention and risk signals provided by Stripe (where applicable).</li>
+    </ul>
+    <p><strong>Legal bases:</strong> contract performance (to process your transaction) and legitimate interests (fraud prevention and accounting compliance). Some transaction records must be retained to meet legal/tax obligations.</p>
+    <p><strong>Retention:</strong> We retain our copies of transaction records only as long as necessary for accounting, refunds/chargebacks, and legal obligations. Stripe may retain data in accordance with its own legal obligations and policies.</p>
+    <p><strong>Security & compliance:</strong> card data is handled by Stripe on PCI DSS‑compliant infrastructure using tokenization. Our systems receive only masked payment details and transaction references. We may use Stripe webhooks in <strong>n8n</strong> to update order status; webhook payloads are stored only to the extent required for operations and audit.</p>
+    <p>For details, refer to <a href="https://stripe.com/privacy" target="_blank" rel="noopener">Stripe’s Privacy Policy</a> and <a href="https://stripe.com/docs/security" target="_blank" rel="noopener">Security</a>.</p>
+    
+    <p>These vendors act as data processors. We maintain Data Processing Agreements where offered and configure access controls and encryption where available.</p>
+
+    <h2>7. Sharing & Recipients</h2>
+    <p>We share data only with:</p>
+    <ul>
+      <li>Platform providers to deliver messages (Meta/Facebook, Instagram, WhatsApp, Telegram, Google, TikTok).</li>
+      <li>Cloud vendors listed in Section 6 as processors.</li>
+      <li>Professional advisors, authorities, or courts where legally required.</li>
+    </ul>
+
+    <h2>8. Retention</h2>
+    <p>Conversation data is retained for the duration necessary to handle your request and operate the Bots. Logs in Google Sheets may be kept long‑term for audit and compliance. We periodically review and delete or anonymize data that is no longer needed. You may request deletion at any time (see Section 10).</p>
+
+    <h2>9. International Transfers</h2>
+    <p>Some processors may operate outside your country. Where applicable, we rely on Standard Contractual Clauses or equivalent safeguards.</p>
+
+    <h2>10. Your Rights</h2>
+    <ul>
+      <li>Access, rectification, erasure (“right to be forgotten”), restriction, portability, and objection.</li>
+      <li>Withdraw consent at any time where processing is based on consent (e.g., marketing or proactive WhatsApp notifications).</li>
+    </ul>
+    <p>To exercise rights, contact us at <a href="mailto:Antonpol2023@gmail.com">Antonpol2023@gmail.com</a>. We may need to verify your identity.</p>
+
+    <h2>11. Data Deletion</h2>
+    <p>You can request deletion of your data via the instructions at <a href="https://iwnfvihwdf.xyz/data-deletion">/privacy/data-deletion</a> or by emailing us. For Meta (Facebook/Instagram), you may also remove our app/page access in your Facebook/Instagram account settings. For WhatsApp, send a message “STOP” to opt out. For email, reply with “UNSUBSCRIBE”. Where payments have been made, certain transactional records (e.g., invoices, refunds, chargebacks) may be retained as required by law and for accounting.</p>
+
+    <h2>12. Security</h2>
+    <p>We implement administrative, technical, and physical safeguards including role‑based access, transport encryption, and regular reviews of n8n workflows, databases, and integrations. Cardholder data is processed by Stripe; we do not store full PAN or CVC on our servers.</p>
+
+    <h2>13. Children</h2>
+    <p>Our Bots are not directed to children under 13. We do not knowingly collect personal data from children under 13; if you believe a child provided data, contact us to delete it.</p>
+
+    <h2>14. Changes</h2>
+    <p>We may update this Policy. Material changes will be indicated by updating the “Effective date”. Continued interaction with our Bots after changes constitutes acceptance.</p>
+
+    <hr>
+    <p class="small muted">This Policy is intended to satisfy the transparency requirements of applicable laws (e.g., GDPR Art. 13/14). Nothing here constitutes legal advice.</p>
+  </main>
+</body>
+</html>
