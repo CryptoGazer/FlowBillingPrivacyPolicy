@@ -18,5 +18,10 @@ def data_deletion():
     return render_template("data_deletion.html")
 
 
+@app.route('/instagram-test-instructions')
+def instagram_test_instructions():
+    return render_template("instagram-test-instructions.html")
+
+
 if __name__ == "__main__":
     app.run()
