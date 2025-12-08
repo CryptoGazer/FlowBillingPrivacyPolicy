@@ -22,6 +22,14 @@ def data_deletion():
 def instagram_test_instructions():
     return render_template("instagram-test-instructions.html")
 
+@app.route("/facebook-auth-privacy-policy")
+def facebook_auth_privacy_policy():
+    return render_template("facebook-auth-privacy-policy.html")
+
+@app.route("/facebook-auth-data-deletion")
+def facebook_auth_data_deletion():
+    return render_template("facebook-auth-data-deletion.html")
+
 
 if __name__ == "__main__":
     app.run()
